@@ -1,12 +1,10 @@
 <?php
-
 class MySQL
 {
     private $host;
     private $user;
     private $pass;
     private $db;
-
     public function __construct()
     {
         $this->host = "localhost";
@@ -15,7 +13,6 @@ class MySQL
         $this->db   = "banco_ihm";
         $this->port = "3306";
     }
-
     public function Conexao()
     {
         try
